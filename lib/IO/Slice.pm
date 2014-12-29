@@ -1,6 +1,6 @@
 package IO::Slice;
 {
-  $IO::Slice::VERSION = '0.1';
+  $IO::Slice::VERSION = '0.2_01';
 }
 
 # ABSTRACT: restrict reads to a range in a file
@@ -46,7 +46,8 @@ sub open {
    }
 
    # optional/conditional features
-   $self->{filename} = $args{filename} // '*undefined*';
+   $self->{filename} = defined($args{filename})
+      ? $args{filename} : '*undefined*';
 
    # underlying filehandle
    if ($args{fh}) {
@@ -294,7 +295,7 @@ IO::Slice - restrict reads to a range in a file
 
 =head1 VERSION
 
-version 0.1
+version 0.2_01
 
 =head1 SYNOPSIS
 
