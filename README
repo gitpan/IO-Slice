@@ -2,7 +2,7 @@ NAME
     IO::Slice - restrict reads to a range in a file
 
 VERSION
-    version 0.2_01
+    version 0.2
 
 SYNOPSIS
        use IO::Slice;

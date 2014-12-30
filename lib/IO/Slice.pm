@@ -1,6 +1,6 @@
 package IO::Slice;
 {
-  $IO::Slice::VERSION = '0.2_01';
+  $IO::Slice::VERSION = '0.2';
 }
 
 # ABSTRACT: restrict reads to a range in a file
@@ -295,7 +295,7 @@ IO::Slice - restrict reads to a range in a file
 
 =head1 VERSION
 
-version 0.2_01
+version 0.2
 
 =head1 SYNOPSIS
 

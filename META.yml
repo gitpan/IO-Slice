@@ -17,4 +17,4 @@ name: IO-Slice
 requires:
   Log::Log4perl::Tiny: '1.002003'
   perl: 5.008_000
-version: 0.2_01
+version: '0.2'
